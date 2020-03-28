@@ -7,7 +7,7 @@ module.exports = {
 /*
     Tipos de connection
 
-Async: 
+Async: É necessario telo no escopo pai de onde foi utilizado o await
 Await: aguardar o codigo finalizar para ele poder continuar continuar
 */
     async index(request, response) { // requisição e resposta do servidor
